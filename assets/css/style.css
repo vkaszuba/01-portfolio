@@ -1,4 +1,5 @@
 
+/* Links bar inside the header */
 .navBar {
     float: right;
     padding: 10px;
@@ -9,6 +10,7 @@
     margin-top: -20px;
 }
 
+/* Header info and style */
 .header {
     padding: 70px 300px;
     text-align: center;
@@ -18,6 +20,7 @@
     box-shadow: 0px 2px 0px #cccccc;
 }
 
+/* Teal box with my name inside */
 .nameBox {
     float: left;
     margin-top: -30px;
@@ -29,6 +32,7 @@
     font-size: 20px;
 }
 
+/* Style for the page change links */
 .linkFont {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -37,26 +41,40 @@
     padding: 20px;
 }
 
+/* Style of the bars between the header links */
 .styledFont {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #cccccc;
     font-size: 17px;
   }
 
+/* My name font info */
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
+/* Main body header info */
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: teal;
+}
+
+/* Color and scale for About Me box */
+.bodyBox {
+    padding: 50px;
+    color: white;
+}
+
+/* Removes underline from links in anything that uses <a> tag */
 a {
     text-decoration: none;
 }
 
+/* Background image setup */
 body {
     margin:0;
     background-image: url("https://raw.githubusercontent.com/vkaszuba/01-portfolio/master/assets/images/bg-darkhex.png");
     background-repeat: repeat;
 }
-
-div {
-    padding: 405px 450px 475px;
-  }
