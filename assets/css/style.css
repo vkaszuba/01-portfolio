@@ -11,8 +11,8 @@
 }
 
 /* Header info and style */
-.header {
-    padding: 70px 300px;
+header {
+    padding: 70px 430px;
     text-align: center;
     background: rgb(255, 255, 255);
     color: white;
@@ -63,8 +63,17 @@ h2 {
 
 /* Color and scale for About Me box */
 .bodyBox {
-    padding: 50px;
-    color: white;
+    background: white;
+    width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    color: #777777;
+    font-size: 17px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: 2px #cccccc;
 }
 
 /* Removes underline from links in anything that uses <a> tag */
@@ -73,8 +82,30 @@ a {
 }
 
 /* Background image setup */
-body {
+html, body {
+    height: 100%;
     margin:0;
     background-image: url("https://raw.githubusercontent.com/vkaszuba/01-portfolio/master/assets/images/bg-darkhex.png");
     background-repeat: repeat;
+}
+
+/* Creates invisible space between body area and header/footer */
+.push {
+    height: 50px;
+  }
+
+  /* Footer color info */
+footer {
+    background: #666666;
+    color: white;
+    line-height: 50px;
+    padding: 0 20px;
+    box-shadow: 0px -8px 0px teal;
+  }
+
+  /* Font in footer info */
+.copyFont {
+    color: white;
+    text-align: center;
+    float: center;
 }
