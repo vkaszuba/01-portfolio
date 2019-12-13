@@ -109,3 +109,9 @@ footer {
     text-align: center;
     float: center;
 }
+
+/* Sticky footer */
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
