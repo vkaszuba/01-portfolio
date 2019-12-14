@@ -1,9 +1,9 @@
 
 /* Links bar inside the header */
 .navBar {
-    float: right;
+    text-align: right;
     padding: 10px;
-    text-align: center;
+    text-align: right;
     background: #ffffff;
     color: white;
     font-size: 30px;
@@ -12,11 +12,8 @@
 
 /* Header info and style */
 header {
-    padding: 70px 430px;
-    text-align: center;
-    background: rgb(255, 255, 255);
-    color: white;
-    font-size: 30px;
+  padding: 35px;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0px 2px 0px #cccccc;
 }
 
