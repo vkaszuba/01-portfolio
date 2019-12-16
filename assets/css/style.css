@@ -17,14 +17,14 @@ header {
     box-shadow: 0px 2px 0px #cccccc;
 }
 
-/* #4aaaa5 box with my name inside */
+/* Top box with my name inside */
 .nameBox {
     float: left;
     margin-top: -30px;
     height: 100px;
     width: 430px;
     text-align: center;
-    background: #4aaaa5;
+    background: #3a2e42;
     color: white;
     font-size: 20px;
 }
@@ -55,7 +55,7 @@ h1 {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
-    color: #4aaaa5;
+    color: #3a2e42;
 }
 
 /* Color and scale for About Me box */
@@ -90,7 +90,8 @@ a {
 html, body {
     height: 100%;
     margin:0;
-    background-image: url("https://raw.githubusercontent.com/vkaszuba/01-portfolio/master/assets/images/bg-lightboxes.png");
+    background-image: url("assets/images/logo-vk.png");
+    background-color: #2c2c2c;
     background-repeat: repeat;
 }
 
@@ -105,7 +106,7 @@ footer {
     color: white;
     line-height: 50px;
     padding: 0 20px;
-    box-shadow: 0px -8px 0px #4aaaa5;
+    box-shadow: 0px -8px 0px #3a2e42;
   }
 
   /* Font in footer info */
@@ -142,7 +143,7 @@ footer {
   }
   
   input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: #3a2e42;
     color: white;
     padding: 12px 20px;
     border: none;
