@@ -10,60 +10,63 @@
     <title>Victoria Kaszuba</title>
 
     <!-- Linking CSS file to this HTML -->
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Jura|Montserrat|Open+Sans|Rajdhani|Saira|Unica+One|Varela+Round&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Unica One', cursive;
+    font-family: 'Saira', sans-serif;
+    font-family: 'Jura', sans-serif; =eh=
+    font-family: 'Abel', sans-serif;
+    font-family: 'Open Sans', sans-serif; -->
 </head>
 
 <body>
     <div class="wrapper">
 
-
-    <!-- Header and purple box with my name -->
-    <header>
-        <div class="nameBox">
-            <h1>VICTORIA KASZUBA</h1>
-        </div>
-    </header>
+<!-- Header and purple box with my name -->
+<header>
+    <div class="nameBox">
+        <h1>VICTORIA KASZUBA</h1>
+    </div>
+</header>
 
 <!-- Links in the header that go to other pages -->
 <div class="navBar"> 
-    <br>
-<a href="index.html" class="linkFont">//About</a>
-    <br>
-<a href="portfolio.html"class="linkFont">//Portfolio</a>
-    <br>
-<a href="contact.html"class="linkFont">//Contact</a>
+    <a href="index.html" class="linkFont">// About</a>
+        <br>
+    <a href="portfolio.html"class="linkFont">// Portfolio</a>
+        <br>
+    <a href="contact.html"class="linkFont"><h6>//</h6> Contact</a>
 </div>
 
-    <div class="push"></div>
-
-   
-    <div class="bodyBox">
+<!-- Primary body section -->
+<div class="bodyBox">
+    <h2>Contact</h2>
+        <br>
         
-        <div class="container">
-            <div style="text-align:left">
-              <h2>Contact</h2>
-            </div>
+    <div class="container">
+        <div style="text-align:left"></div>
 
-                <form action="/action_page.php">
+                <form action="contactform.php" method="post">
                   <label for="name">Name</label>
-                  <input type="text" id="name" name="name" placeholder="Your name">
+                  <input type="text" name="name" placeholder="Your name">
                   <label for="name">Email</label>
-                  <input type="text" id="email" name="email" placeholder="Your email">
+                  <input type="text" name="email" placeholder="Your email">
                   <label for="subject">Message</label>
-                  <textarea id="subject" name="subject" placeholder=" " style="height:170px"></textarea>
+                  <textarea name="subject" placeholder=" " style="height:170px"></textarea>
                   <input type="submit" value="Submit">
                 </form>
 
     </div>
 </div>
 
-    </div>
-
-<div class="push"></div>
-<footer class="copyFont">Copywrite</footer>
+    <footer class="copyFont">&copy; Copyright 2019</footer>
 
 </body>
 </html>
