@@ -10,6 +10,7 @@
   font-size: 40px;
   width: 200px;
   padding-top: 110px;
+  line-height: 50px;
   z-index: 1;
 }
 
@@ -92,6 +93,7 @@ h6 {
   color: #777777;
   font-size: 25px;
   font-family: 'Abel', sans-serif;
+  line-height: 32px;
 }
 
 /* About Me image style */
@@ -174,9 +176,7 @@ input[type=submit]:hover {
   background-color: #777777;
 }
 
-
+/* Resume skills two column list */
 ul {
   columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
 }
