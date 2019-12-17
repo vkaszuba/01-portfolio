@@ -40,15 +40,6 @@ header {
   padding: 20px;
 }
 
-/* Style for // by nav links*/
-h6 {
-  font-family: 'Rajdhani', sans-serif;
-  color: #3a2e42;
-  font-size: 30px;
-  font-weight: bold;
-  display: inline;
-}
-
 /* My name font info */
 h1 {
   font-family: 'Rajdhani', sans-serif;
@@ -65,6 +56,32 @@ h2 {
   font-weight: bold;
 }
 
+/* Title font for resume companies */
+h3 {
+  color: #777;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+/* Dates worked or graduated on resume */
+h4 {
+  color: #777;
+  margin-left: 13px;
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+/* Style for // by nav links*/
+h6 {
+  font-family: 'Rajdhani', sans-serif;
+  color: #3a2e42;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+}
+
 /* Color and scale for About Me box */
 .bodyBox {
   background: #cacaca;
@@ -75,7 +92,6 @@ h2 {
   color: #777777;
   font-size: 25px;
   font-family: 'Abel', sans-serif;
-  position: relative;
 }
 
 /* About Me image style */
@@ -156,4 +172,11 @@ input[type=submit] {
 /* Attributes for hover over Submit button */
 input[type=submit]:hover {
   background-color: #777777;
+}
+
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
