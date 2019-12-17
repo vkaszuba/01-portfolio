@@ -7,8 +7,8 @@
     background: #ffffff;
     color: white;
     font-size: 40px;
-    height: 821px;
-    width: 170px;
+    height: 840px;
+    width: 200px;
 }
 
 /* Header info and style */
@@ -28,34 +28,27 @@ header {
   padding-right: 30px;
   background: #3a2e42;
   font-size: 30px;
-  font-family: 'Abel', sans-serif;
 }
 
 /* Style for the page change links */
 .linkFont {
-    font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
     color: #777777;
     font-size: 30px;
     padding: 20px;
 }
 
-/* Style of the bars between the header links */
-h6 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #3a2e42;
-    font-size: 40px;
-  }
-
 /* My name font info */
 h1 {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: normal;
   font-size: 60px;
   color: #fff;
 }
 
 /* Main body header info */
 h2 {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 40px;
   color: #3a2e42;
 }
@@ -65,11 +58,11 @@ h2 {
     background: white;
     opacity: 75%;
     width: 960px;
-    margin-left: 220px;
+    margin-left: 250px;
     padding: 40px;
     color: #777777;
     font-size: 25px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Abel', sans-serif;
     border: 2px #cccccc;
 }
 
