@@ -15,7 +15,7 @@
 
 /* Header info and style */
 header {
-  height: 90px;
+  height: 70px;
   position: fixed;
   top: 0;
   z-index: 2;
@@ -24,10 +24,10 @@ header {
 /* Top box with my name inside */
 .nameBox {
   display: block;
-  height: 90px;
-  width: 520px;
+  height: 70px;
+  width: 500px;
   padding-left: 30px;
-  padding-top: 20px;
+  padding-top: 15px;
   background: #3a2e42;
   font-size: 30px;
 }
@@ -67,8 +67,7 @@ h2 {
 
 /* Color and scale for About Me box */
 .bodyBox {
-  background: white;
-  opacity: 75%;
+  background: #cacaca;
   width: 960px;
   margin-left: 250px;
   margin-top: 90px;
@@ -98,7 +97,7 @@ body {
   background-color: #2c2c2c;
   background-size: 1100px;
   background-position: right;
-  padding-top: 50px;
+  padding-top: 40px;
   background-repeat: no-repeat;
 }
 
@@ -110,9 +109,9 @@ body {
 
   /* Footer color info */
 footer {
-  height: 30px;
+  height: 20px;
   width: 100%;
-  padding-top: 8px;
+  padding-top: 10px;
   background: #3a2e42;
   position: fixed;
   text-align: center;
@@ -127,52 +126,33 @@ footer {
   font-family: 'Rajdhani', sans-serif;
 }
 
-/* Sticky footer */
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -50px;
-}
 
-
-/* Contact Page */
-* {
-  box-sizing: border-box;
-}
-  
-/* Style inputs */
+/* Style for the contact text boxes */
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 15px;
   border: 1px solid #ccc;
   font-family: 'Abel', sans-serif;
   font-size: 20px;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 920px;
+  display: block;
   resize: vertical;
 }
-  
+
+/* Attributes for Submit button */
 input[type=submit] {
   background-color: #3a2e42;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
   color: white;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
 }
-  
+
+/* Attributes for hover over Submit button */
 input[type=submit]:hover {
   background-color: #777777;
-}
-  
-/* Style the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: #ffffff;
-  padding: 10px;
-}
-
-
-.clearfix {
-  content: " ";
-  display: block;
-  clear: both;
 }
