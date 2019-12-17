@@ -86,7 +86,7 @@ h6 {
 /* Color and scale for About Me box */
 .bodyBox {
   background: #cacaca;
-  width: 960px;
+  width: 55%;
   margin-left: 250px;
   margin-top: 90px;
   margin-bottom: 90px;
@@ -149,14 +149,13 @@ footer {
 
 /* Style for the contact text boxes */
 input[type=text], select, textarea {
-  width: 100%;
+  width: 96%;
   padding: 15px;
   border: 1px solid #ccc;
   font-family: 'Abel', sans-serif;
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 15px;
-  width: 920px;
   display: block;
   resize: vertical;
 }
