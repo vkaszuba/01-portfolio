@@ -164,17 +164,7 @@ footer {
     background-color: #ffffff;
     padding: 10px;
   }
-  
-  /* /* @font-face {
-    font-family: "Gost-A";
-    src: local('./assets/fonts/gostb-webfont.woff'),
-         /* url('https://github.com/vkaszuba/01-portfolio/blob/master/assets/fonts/gostb-webfont.woff') */
-         /* format('woff');
-} */
 
-@font-face {
-  font-family: src: url(./assets/fonts/gostb-webfont.woff) format("woff");
-}
 
 .clearfix {
   content: " ";
