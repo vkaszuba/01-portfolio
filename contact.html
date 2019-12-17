@@ -50,16 +50,18 @@
         <br>
         
     <div class="container">
-        <div style="text-align:left"></div>
 
                 <form name="contactform" action="contactform.php" method="post">
-                  <label for="full_name">Full Name</label>
-                  <input type="text" name="full_name" placeholder="Your name">
-                  <label for="name">Email</label>
-                  <input type="text" name="email" placeholder="Your email">
-                  <label for="subject">Message</label>
-                  <textarea name="subject" placeholder=" " style="height:170px"></textarea>
-                  <input type="submit" value="Submit">
+                  <label for="Name">Name</label>
+                  <input type="text" id="Name" name="Name" placeholder="Your name">
+
+                  <label for="Email">Email</label>
+                  <input type="text" id="Email" name="Email" placeholder="Your email">
+
+                  <label for="Message">Message</label>
+                  <textarea id="Message" name="Message" placeholder="Type here" style="height:170px"></textarea>
+
+                  <input type="submit" name="submit" value="Submit">
                 </form>
 
     </div>
