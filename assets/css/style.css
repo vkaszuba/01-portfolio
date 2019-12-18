@@ -94,6 +94,7 @@ h6 {
   color: #777777;
   font-size: 25px;
   font-family: 'Abel', sans-serif;
+  position: relative;
   line-height: 32px;
 }
 
@@ -102,7 +103,7 @@ h6 {
   float: left;
   width: 300px;
   margin-right: 30px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 /* Removes underline from links in anything that uses <a> tag */
