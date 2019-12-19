@@ -26,6 +26,10 @@ $Body .= "Message: ";
 $Body .= $Message;
 $Body .= "\n";
 
+/* Modification by Toni for Windows servers */
+ini_set("sendmail_from", "vikasz@live.com");
+
+
 // send email 
 $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
