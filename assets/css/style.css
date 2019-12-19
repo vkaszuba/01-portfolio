@@ -106,6 +106,14 @@ h6 {
   margin-bottom: 20px;
 }
 
+/* Style for social media icons */
+.socialmediaImage {
+  width: 25px;
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 /* Removes underline from links in anything that uses <a> tag */
 a {
   text-decoration: none;
@@ -130,9 +138,10 @@ body {
 
   /* Footer color info */
 footer {
-  height: 20px;
+  height: 25px;
   width: 100%;
   padding-top: 10px;
+  padding-bottom: 10px;
   background: #3a2e42;
   position: fixed;
   text-align: center;
@@ -143,8 +152,10 @@ footer {
   /* Font in footer info */
 .copyrightFont {
   color: #fff;
+  margin-left: 10px;
   text-align: center;
   font-family: 'Rajdhani', sans-serif;
+  display: inline;
 }
 
 
