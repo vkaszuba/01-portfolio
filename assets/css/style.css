@@ -101,9 +101,9 @@ h6 {
 /* About Me image style */
 .bioImage {
   float: left;
-  width: 300px;
+  width: 25%;
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* Removes underline from links in anything that uses <a> tag */
