@@ -118,7 +118,7 @@ h6 {
 
 /* Removes underline from links in anything that uses <a> tag */
 a, a:hover, a:focus {
-  text-decoration: none;
+  text-decoration: none!important;
   color: #777;
 }
 
