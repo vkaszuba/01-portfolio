@@ -25,8 +25,8 @@ header {
 /* Top box with my name inside */
 .nameBox {
   display: block;
-  height: 70px;
-  width: 500px;
+  height: 80px;
+  width: 510px;
   padding-left: 30px;
   padding-top: 15px;
   background: #3a2e42;
@@ -113,12 +113,13 @@ h6 {
   margin-left: 4px;
   margin-right: 4px;
   border: 0;
-  outline: hidden;
+  outline: none;
 }
 
 /* Removes underline from links in anything that uses <a> tag */
-a {
+a, a:hover, a:focus {
   text-decoration: none;
+  color: #777;
 }
 
 /* Background image setup */
