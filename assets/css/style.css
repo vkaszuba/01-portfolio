@@ -107,11 +107,13 @@ h6 {
 }
 
 /* Style for social media icons */
-.socialmediaImage {
+.socialMediaImage {
   width: 25px;
   display: inline;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border: 0;
+  outline: hidden;
 }
 
 /* Removes underline from links in anything that uses <a> tag */
@@ -138,7 +140,7 @@ body {
 
   /* Footer color info */
 footer {
-  height: 25px;
+  height: 45px;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
