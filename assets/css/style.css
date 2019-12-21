@@ -26,7 +26,7 @@ header {
 .nameBox {
   display: block;
   height: 80px;
-  width: 510px;
+  width: 491px;
   padding-left: 30px;
   padding-top: 15px;
   background: #3a2e42;
@@ -45,7 +45,7 @@ header {
 h1 {
   font-family: 'Rajdhani', sans-serif;
   text-align: left;
-  font-size: 60px;
+  font-size: 57px;
   color: #fff;
 }
 
