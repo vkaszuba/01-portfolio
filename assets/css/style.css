@@ -16,20 +16,19 @@
 
 /* Header info and style */
 header {
-  height: 70px;
+  width:100%;
   position: fixed;
   top: 0;
-  left: 0;
   z-index: 2;
 }
 
 /* Top box with my name inside */
 .nameBox {
-  display: block;
-  height: 80px;
-  width: 491px;
-  padding-left: 30px;
-  padding-top: 15px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  padding-left: 25px;
   background: #3a2e42;
   font-size: 30px;
 }

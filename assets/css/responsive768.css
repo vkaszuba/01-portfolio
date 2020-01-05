@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px){
+    
+    .navBar {
+      display: none;
+      position: relative;
+    }
+
+    /* Header info and style */
+header {
+    width:100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  
+  /* Top box with my name inside */
+  .nameBox {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: #3a2e42;
+  }
+  
+    .dropdown {
+      position: fixed;
+      right: 0;
+      top: 0;
+      background: #fff;
+      font-family: 'Abel', sans-serif;
+      z-index: 3;
+    }
+  
+    .linkFont {
+      font-family: 'Rajdhani', sans-serif;
+      color: #777777;
+      font-size: 20px;
+      line-height: 50px;
+    }
+  
+    h6 {
+        font-family: 'Rajdhani', sans-serif;
+        color: #3a2e42;
+        font-size: 25px;
+        font-weight: bold;
+        display: inline;
+      }
+
+  .menuButton {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 45px;
+    width: 60px;
+    color: #3a2e42;
+    font-weight: bold;
+  }
+
+
+  
+  
+  }
