@@ -14,23 +14,18 @@
   z-index: 1;
 }
 
-/* Header info and style */
-header {
-  width:100%;
-  position: fixed;
-  top: 0;
-  z-index: 2;
-}
 
 /* Top box with my name inside */
 .nameBox {
   position: fixed;
   left: 0;
+  top: 0;
   width: 100%;
+  height: 80px;
   padding: 15px;
   padding-left: 25px;
   background: #3a2e42;
-  font-size: 30px;
+  z-index: 3;
 }
 
 /* Style for the page change links */
@@ -45,7 +40,7 @@ header {
 h1 {
   font-family: 'Rajdhani', sans-serif;
   text-align: left;
-  font-size: 57px;
+  font-size: 55px;
   color: #fff;
 }
 
@@ -86,8 +81,7 @@ h6 {
 /* Color and scale for About Me box */
 .bodyBox {
   background: #cacaca;
-  width: 55%;
-  margin-left: 250px;
+  width: 90%;
   margin-top: 90px;
   margin-bottom: 90px;
   padding: 40px;
