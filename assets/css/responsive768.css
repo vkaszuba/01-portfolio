@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px){
     
-    .navBar {
+    .navBar, .bioImage {
       display: none;
     }
   
@@ -25,11 +25,22 @@
       text-align: center;
       z-index: 3;
     }
+
+    .dropdown-menu {
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 3;
+        background-color: #fff;
+        border-radius: 0;
+        border-style: none;
+        padding: 10px;
+    }
   
     .linkFont {
       font-family: 'Rajdhani', sans-serif;
       color: #777777;
-      font-size: 20px;
+      font-size: 25px;
       line-height: 50px;
     }
   
@@ -58,7 +69,22 @@ h1 {
     font-weight: bold;
   }
 
+/* Color and scale for About Me box */
+.bodyBox {
+    background: #cacaca;
+    width: 95%;
+    padding: 40px;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 65px;
+    color: #777777;
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    line-height: 32px;
+    z-index: 1;
+  }
+  
 
-  
-  
+
+/* End Media tag */
   }

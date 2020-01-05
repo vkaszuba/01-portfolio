@@ -3,12 +3,13 @@
 .navBar {
   position: fixed;
   left: 0;
-  top: 0;
   bottom: 0;
-  display: block;
+  top: 0;
+  max-height: 100%;
   background: #cacaca;
   font-size: 40px;
-  width: 200px;
+  width: 180px;
+  padding: 15px;
   padding-top: 110px;
   line-height: 50px;
   z-index: 1;
@@ -32,8 +33,8 @@
 .linkFont {
   font-family: 'Rajdhani', sans-serif;
   color: #777777;
-  font-size: 30px;
-  padding: 20px;
+  font-size: 28px;
+  padding: 10px;
 }
 
 /* My name font info */
@@ -81,15 +82,14 @@ h6 {
 /* Color and scale for About Me box */
 .bodyBox {
   background: #cacaca;
-  width: 70%;
-  margin: 50px;
-  margin-left: 250px;
   padding: 40px;
+  margin-top: 50px;
+  margin-left: 200px;
   color: #777777;
   font-size: 25px;
   font-family: 'Abel', sans-serif;
-  position: relative;
   line-height: 32px;
+  z-index: 1;
 }
 
 /* About Me image style */
@@ -125,12 +125,6 @@ body {
   background-position: right bottom;
   padding-top: 40px;
   background-repeat: no-repeat;
-}
-
-
-/* Creates invisible space between body area and header/footer */
-.push {
-  height: 50px;
 }
 
   /* Footer color info */
