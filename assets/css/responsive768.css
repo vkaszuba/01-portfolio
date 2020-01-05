@@ -84,7 +84,9 @@ h1 {
     z-index: 1;
   }
   
-
+  ul {
+    columns: 1;
+  }
 
 /* End Media tag */
   }
