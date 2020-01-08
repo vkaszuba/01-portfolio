@@ -15,7 +15,6 @@
   z-index: 1;
 }
 
-
 /* Top box with my name inside */
 .nameBox {
   position: fixed;
@@ -95,7 +94,7 @@ h6 {
 /* About Me image style */
 .bioImage {
   float: left;
-  width: 300px;
+  width: 350px;
   margin-right: 30px;
   margin-bottom: 20px;
 }
