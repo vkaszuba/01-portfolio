@@ -71,6 +71,7 @@ h2 {
   font-size: 30px;
   color: #3a2e42;
   font-weight: bold;
+  line-height: 35px;
 }
 
 /* Title font for resume companies */
@@ -130,4 +131,17 @@ body {
 }
 
 /* End Media tag */
-  }
+}
+
+
+@media screen and (max-width: 360px){
+
+    /* My name font info */
+h1 {
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+  font-size: 29px;
+  color: #fff;
+}
+
+}
