@@ -36,19 +36,18 @@
 <body>
 
 <!-- Container for header and navbar button -->
-<header><div class="container-fluid">
+<div class="container">
     <div class="row">
-        
-<!-- Header and purple box with my name -->
-    <div class="col-11">
-        
-        <div class="nameBox">
-            <h1>VICTORIA KASZUBA</h1>
-        </div>
+        <header>
+
+<div class="col">
+    <div class="nameBox">
+        <h1>VICTORIA KASZUBA</h1>
     </div>
+</div>
 
 <!-- Dropdown menu version of navbar, when screen gets small -->
-<div class="col-1">
+<div class="col">
     <div class="dropdown">
         <button class="btn shadow-none" type="button" data-toggle="dropdown">
           <div class="menuFont">//</div>
@@ -64,27 +63,29 @@
         </div>     
     </div>
 </div>
-</div>
+
+        </header>
     </div>
-</header>
 
 <!-- Container for navbar and body box -->
-<div class="container">
-    <div class="row">
+<div class="row">
 
-<!-- Links in the header that go to other pages -->
-<div class="col navBar">
-    <a href="index.html" class="linkFont"><h6>//</h6> About</a>
-        <br>
-    <a href="portfolio.html" class="linkFont">// Portfolio</a>
-        <br>
-    <a href="resume.html" class="linkFont">// Resume</a>
-        <br>
-    <a href="contact.html" class="linkFont">// Contact</a>
-</div>
+    <!-- Links in the header that go to other pages -->
+    <div class="col-xs-0 col-md-2">
+    <div class="navBar">
+        <a href="index.html" class="linkFont"><h6>//</h6> About</a>
+            <br>
+        <a href="portfolio.html" class="linkFont">// Portfolio</a>
+            <br>
+        <a href="resume.html" class="linkFont">// Resume</a>
+            <br>
+        <a href="contact.html" class="linkFont">// Contact</a>
+    </div>
+    </div>
 
 <!-- Primary body section -->
-<div class="col bodyBox">
+<div class="col-xs-12 col-md-10">
+    <div class="bodyBox">
         <h2>About Me</h2>
             <br>
         <img class="bioImage" src="assets/images/pic-me.jpg">
@@ -94,22 +95,25 @@
         <p>I have so many interests on so many spectrums; I'm a writer of short stories and poetry, I create art both on paper and digitally, both 2D and 3D, I've managed teams and prepared interns for their entire career, I've built upon old tech (EverQuest) and new (Virtual Reality). I feel as if I've done everything, though what I've always felt was my calling, is coding. The instances where I was able to manipulate products in previous art roles via CSS and Python left me chasing more. There's not a feeling that even comes close to what creating code that works feels like; it's the ultimate challenge without a shortage of new problems to solve, and I'm not one to back down from a dare.
         </p>
     </div>
-
-    </div>
+</div>
 </div>
 
 
     <!-- Footer with social media icon links and Copyright -->
-    <footer>
+    <div class="row">
+        <div class="col">
+            <footer>
         <a href="https://www.linkedin.com/in/victoriakaszuba/" target="_blank">
             <img class="socialMediaImage" alt="LinkedIn" src="assets/images/logo-linkedin-white.png">
         </a>
-
         <a href="https://github.com/vkaszuba" target="_blank">
             <img class="socialMediaImage" alt="GitHub" src="assets/images/logo-github-white.png">
         </a>
-        <!-- <span class="copyrightFont">&copy; Copyright 2019</span> -->
-    </footer>
+            </footer>
+        </div>
+    </div>
+
+</div>
 
     <!-- Bootstrap JS and JQuery links-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
