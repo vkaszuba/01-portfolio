@@ -82,7 +82,7 @@ h6 {
 .bodyBox {
   background: #cacaca;
   padding: 40px;
-  margin: 50px;
+  margin: 20px;
   margin-bottom: 90px;
   color: #777777;
   font-size: 25px;
@@ -94,7 +94,7 @@ h6 {
 /* About Me image style */
 .bioImage {
   float: left;
-  width: 350px;
+  width: 450px;
   margin-right: 30px;
   margin-bottom: 20px;
 }
