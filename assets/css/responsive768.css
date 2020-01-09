@@ -31,14 +31,12 @@
 
 /* Dropdown menu list */
 .dropdown-menu {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 3;
+  z-index: 4;
   background-color: #fff;
   border-radius: 0;
   border-style: none;
   padding: 10px;
+  margin: 32px 0 0;
 }
 
 /* Dropdown nav button slash info */
@@ -47,6 +45,7 @@
   font-size: 30px;
   color: #3a2e42;
   font-weight: bold;
+  line-height: 8px;
 }
  
 /* Navbar link font info */
