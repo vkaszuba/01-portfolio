@@ -91,6 +91,10 @@ h6 {
   z-index: 1;
 }
 
+.profileImage {
+  width: 100%;
+}
+
 /* About Me image style */
 .bioImage {
   float: left;
