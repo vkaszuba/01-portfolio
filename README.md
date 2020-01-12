@@ -1,11 +1,11 @@
 # 01-portfolio
 Week 1 & 2 Homework
 
-<img class="profileImage" src="assets/images/logo-vk.jpg">
-
 ## Introduction
 My first project, implementing the basics of HTML, CSS, and Bootstrap.
 This is a portfolio with an About Me page, a Poprtfolio page that showcases my previous work, a Resume page, and a Contact form page.
+
+My inspiration was a simplistic and clean design, with my logo as the background to minimize additional noise. I added slashes next to the navigation options to call-back to how comments are added into JavaScript files. Although difficult to maintain, I wanted to keep a side-bar nav to create a drastic shift in design between small and large screens. 
 
 ## Status
 The build is fulling functioning, and tested in every various screen size.
@@ -26,6 +26,7 @@ The build is fulling functioning, and tested in every various screen size.
 - Contact form isn't fully functional
 - Add button for a downloadable version of Resume
 - Full-size version of Profile art upon clicking on thumbnail
+- JavaScript has not been used yet
 
 ## Copywrite
 © Victoria Kaszuba - 2019
