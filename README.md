@@ -1,6 +1,8 @@
 # 01-portfolio
 Week 1 & 2 Homework
 
+<img class="profileImage" src="assets/images/logo-vk.jpg">
+
 ## Introduction
 My first project, implementing the basics of HTML, CSS, and Bootstrap.
 This is a portfolio with an About Me page, a Poprtfolio page that showcases my previous work, a Resume page, and a Contact form page.
@@ -26,4 +28,4 @@ The build is fulling functioning, and tested in every various screen size.
 - Full-size version of Profile art upon clicking on thumbnail
 
 ## Copywrite
-Victoria Kaszuba - 2019
+© Victoria Kaszuba - 2019
